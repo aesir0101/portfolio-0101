@@ -116,8 +116,14 @@ li{
 .sectionHeader h1 { 
     font-family: var(--poppins);
     font-size: 2.5rem;
-    color: #fff;
-    border-bottom: solid 3px #0dcaf0;
+
+    letter-spacing: 0.14rem;
+    background: linear-gradient(180deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image: linear-gradient(0.25turn rgb(255, 70, 163), #69fdff);
+    
+    border-image-slice: 1;    border-bottom: solid 3px #0dcaf0;
     margin-bottom: 1rem;
     padding-top: 15px;
 }
@@ -130,13 +136,22 @@ li{
 
 .subTitle h2 {
     font-size: 1.7rem;
-    color: #fc00ff;
+    letter-spacing: 0.14rem;
+    background: linear-gradient(180deg, rgb(236, 16, 126), #00fbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
 }
 
 .subTitle p {
-    color: #ffffff;
-    text-align: center;
+    letter-spacing: 0.14rem;
+    background: linear-gradient(180deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image: linear-gradient(0.25turn rgb(255, 24, 139), #3cfcff);
+    border-image-slice: 1;
+    width: 100%;  
+  text-align: center;
 }
 
 /*TESTE*/
