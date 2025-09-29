@@ -225,10 +225,10 @@ li{
 
 .icons-container li {
     margin-right: 10px; /* Espaço entre os ícones */
-    color:(90deg, #00dbde, #fc00ff);
-    /* Cor dos ícones */
+    color: #00dbde; /* Cor dos ícones */
     font-size: 24px; /* Tamanho dos ícones */
 }
+
 .logo_section{
     display: flex;
     align-items: center;
